@@ -12,7 +12,7 @@
         <h1>Caça - palavras Frutas</h1>
 
         
-    <table border="3" width="600" height="400" align="center">
+    <table border="3" width="500" height="400" align="center">
     <script>
         matriz = new Array;
         matriz = [["J","A","C","A","F","E","N","D","L","B"] , ["E","L","Z","T","U","M","A","Ç","A","A"] , ["R","A","T","H","O","C","E","R","S","N"] , ["R","U","C","A","L","E","G","T","Z","A"] , ["A","V","E","C","A","Q","U","I","S","N"] , ["C","A","M","S","R","Z","É","R","A","A"] , ["E","R","A","S","F","U","U","T","C","V"] , ["L","A","R","A","N","J","A","R","E","C"] , ["E","C","A","S","D","G","Z","H","I","J"] , ["Í","U","E","F","Ã","V","C","A","J","U"] , ["A","M","A","N","C","O","S","T","D","Ã"] , ["Ç","Ã","A","M","O","R","A","E","W","S"] , ["A","O","F","Z","E","B","O","C","O","C"]]
@@ -25,10 +25,8 @@
             document.write("<tr>");
 
             for(coluna=0; coluna<10; coluna++){
-                document.write("<td>" + matriz[linha][coluna] + "</td>") 
-                 
                 if(binario[linha][coluna] == 1){
-                    document.write("<td bgcolor='green'>" + matriz[linha][coluna] + "</td>")
+                    document.write("<td bgcolor='MediumOrchid'>" + matriz[linha][coluna] + "</td>")
                 }      
                 else{
                     document.write("<td>" + matriz[linha][coluna] + "</td>")
